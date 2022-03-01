@@ -1,6 +1,6 @@
 {
   "name": "@hahawurld/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A base eslint config for hahawurld TypeScript projects",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hahawurld/eslint-config": "^0.1.1",
+    "@hahawurld/eslint-config": "^0.1.2",
     "@typescript-eslint/eslint-plugin": "^4.14.0",
     "@typescript-eslint/parser": "^4.14.0",
     "eslint-config-prettier": "^7.2.0"

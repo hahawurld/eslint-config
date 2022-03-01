@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-hahawurld",
+  "version": "0.0.1",
+  "description": "hahawurld's preferred linting rules for TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hahawurld-eslint-config/eslint-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hahawurld-eslint-config/issues"
+  },
+  "homepage": "https://github.com/hahawurld-eslint-config/eslint-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@hahawurld/prettier-config": "^1.0.6",
+    "commitlint": "^11.0.0",
+    "eslint": "^7.17.0",
+    "husky": "^4.3.8",
+    "lerna": "^3.22.1",
+    "lerna-changelog": "^1.0.1",
+    "prettier": "^2.2.1"
+  },
+  "volta": {
+    "node": "15.5.0",
+    "npm": "7.3.0"
+  },
+  "prettier": "@hahawurld/prettier-config",
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

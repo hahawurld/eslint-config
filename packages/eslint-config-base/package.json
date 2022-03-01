@@ -1,0 +1,25 @@
+{
+  "name": "@hahawurld/eslint-config",
+  "version": "0.1.1",
+  "description": "A base eslint config for hahawurld JavaScript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.17.0"
+  },
+  "volta": {
+    "node": "15.5.0",
+    "npm": "7.3.0"
+  },
+  "repository": {
+    "url": "https://github.com/hahawurld/eslint-config"
+  }
+}

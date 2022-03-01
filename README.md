@@ -24,3 +24,4 @@ module.exports = {
 
 ## Release
 
+Commits to `main` are released by a GitHub action

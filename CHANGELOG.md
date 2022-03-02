@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.1.3 (2022-03-02)
+
+
+### Bug Fixes
+
+* correct publish release action permissions ([a5f8ee9](https://github.com/hahawurld-eslint-config/eslint-config/commit/a5f8ee9f64c4da1cad0495f2e54451fc8cdb26e6))
+
+
+
+
+
 ## 0.1.1 (2021-03-04)
 
 **Note:** Version bump only for package eslint-config-cloudburst
